@@ -1,6 +1,100 @@
-p {
+header h1{
+    text-align: center;
+}
+    
+    p{
     font-family: serif;
     font-size: medium;
     color: darkblue;
     letter-spacing: 3px;
+}
+
+body{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(128, 137, 184);
+    background-image: url(R.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+blockquote{
+    margin-right: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 160%;
+    background-color: gray;
+    border-left: solid 3px firebrick;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+    
+}
+
+q{
+    font-style: italic;
+    
+}
+
+a{
+    color: rgb(18, 129, 226);
+}
+
+.neighbors{
+    border-left: solid  3px rgb(96, 28, 128);
+}
+
+.farmer{
+    border-left: solid 3px rgb(26, 133, 35);
+}
+
+header h1{
+    background-color: goldenrod;
+}
+
+.good{
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad{
+    text-transform: capitalize;
+    color: red;
+}
+
+ul li:nth-child(1){
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-position: 395px;
+    background-size: contain;
+}
+
+ul li:nth-child(2){
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-position: 395px;
+    background-size: contain;
+}
+
+ul li:nth-child(3){
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-position: 395px;
+    background-size: contain;
+
+}
+
+.partone{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  
+}
+
+.partwo{
+    display: flex;
+    flex-direction: row;
 }
